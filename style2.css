@@ -1,0 +1,303 @@
+@media (max-width: 768px) {
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-image {
+    flex: 1 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card-content {
+    flex: 1 1 auto;
+    padding: 30px 6px;
+
+  }
+
+  .navbar-linked-links ul {
+    padding: 0 100px;
+    display: none;
+  }
+
+  .navbar {
+    padding: 45px 20px;
+  }
+
+  .bars {
+    display: block;
+    background: transparent;
+    border: 0;
+  }
+
+  .extra-bars {
+    display: block;
+    background: transparent;
+    position: fixed;
+    top: 150px;
+    background-color: orange;
+    padding: 10px;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    right: -50px
+  }
+
+  .bars-connected-ul {
+    background-color: rgba(0, 0, 0, 0.705);
+    backdrop-filter: blur(5px);
+    outline: 1.5px solid #000000bd;
+    width: 90%;
+    height: 310px;
+    text-align: justify;
+    top: 90px;
+    position: fixed;
+    transform: translate(-93%, 0);
+    border-radius: 10px;
+    display: none;
+    overflow: hidden;
+  }
+
+  .bars-connected-ul h3 {
+    padding: 20px 10px;
+  }
+
+  .bars-connected-ul h3:hover {
+    background-color: #2d9ed6a9;
+  }
+
+  .bars-connected-ul-js {
+    display: block;
+  }
+
+  .About {
+    padding: 20px 17px;
+  }
+
+  .EDUCATION,
+  .SERVICES,
+  .BLOG,
+  .CONTACT {
+    display: none;
+  }
+
+  .EDUCATION-MOBILE {
+    display: flex;
+    flex-direction: column;
+    padding: 2svh 0px;
+    border-radius: 15px;
+    width: 100%;
+    gap: 50px;
+    padding-top: 30px;
+    background: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+  }
+
+  .EDUCATION-MOBILE h1 {
+    font-family: 'Poppins';
+    font-size: 12dvw;
+    color: white;
+    text-align: center;
+  }
+
+  .EDUCATION-MOBILE h2 {
+    font-family: 'Poppins';
+    font-size: 7dvw;
+    color: rgb(0, 0, 0);
+    text-align: left;
+  }
+
+  .EDUCATION-MOBILE p {
+    font-family: 'Poppins';
+  }
+
+  .matric-mobile,
+  .INTER-mobile,
+  .BSCS-mobile {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 75%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 20px -5px black;
+  }
+
+  .bar-con {
+    background-color: rgba(131, 131, 131, 0.486);
+    height: 20%;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .reading1 {
+    background-color: rgba(0, 81, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    width: 99%;
+    height: 100%;
+  }
+
+  .reading2 {
+    background-color: rgba(0, 81, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    width: 75%;
+    height: 100%;
+  }
+
+  .reading3 {
+    background-color: rgba(0, 81, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    width: 10%;
+    height: 100%;
+  }
+
+  .reading4 {
+    background-color: rgba(0, 81, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    width: 55%;
+    height: 100%;
+  }
+
+  .reading5 {
+    background-color: rgba(0, 81, 128, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    border-radius: 10px;
+    width: 33%;
+    height: 100%;
+  }
+
+  .formal,
+  .certifications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .linker-container {
+    background-color: red;
+  }
+
+  .BLOG-mobile {
+    margin-top: 6svh;
+    padding: 20px 17px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .BLOG-mobile h1 {
+    font-size: 3rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+
+  .BLOG-mobile h3 {
+    color: rgba(44, 44, 44, 0.295);
+    font-family: 'Roboto';
+  }
+
+  .BLOG-mobile h4 {
+    background: black;
+    color: white;
+    padding: 6px;
+    width: fit-content;
+    border-radius: 0px 14px 14px 14px ;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+  }
+
+  .BLOG-mobile a {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    /* background: linear-gradient(45deg, #0084ff, #7700ff); */
+    background: #5299bc;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .BLOG-mobile p{
+    font-family: 'Poppins';
+    font-size: small;
+    color: rgba(0, 0, 0, 0.664);
+  }
+  .contact-mobile h1{
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Roboto';
+  }
+  .contact-mobile {
+    margin-top: 4svh;
+    padding: 20px 17px;
+    display: block;
+  }
+  
+  /* contact */
+  label{
+    font-size: 1.3rem;
+    font-family: 'Roboto';
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  form button{
+    padding: 15px 20px;
+    width: fit-content;
+    border-radius: 9px;
+    background-color: #5299bc;
+    color: white;
+    border: 0;
+  }
+  form button:hover,
+  form button:focus{
+    background-color: #057fbd;
+  }
+  input{
+    padding: 20px 30px;
+    font-size: 1rem;
+    font-family: 'Poppins';
+  }
+  input:focus{
+    border: 1px solid #5299bc;
+    border-radius: 3px;
+    outline: 2px solid #5299bc;
+  }
+  textarea{
+    padding: 20px 30px;
+    font-size: 1rem;
+    resize: none;
+    font-family: 'Poppins';
+  
+  }
+
+}

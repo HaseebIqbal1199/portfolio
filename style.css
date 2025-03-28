@@ -1,0 +1,867 @@
+/* Author: Haseeb IQbal */
+/* lang: Cascading Style Sheet */
+/* api: 1.0.01ac */
+/*----------------------------------------Home CSS----------------------------------------------------  */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* background-color: red; */
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  /* background-color: skyblue; */
+  display: flex;
+  padding: 6dvh 60px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-linked-links ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 0 10dvh;
+  font-family: .1rem;
+  gap: 30px
+}
+
+.navbar .navbar-h1 h1 {
+  font-size: 2rem;
+}
+
+.main-home-container {
+  background: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  overflow-x: hidden;
+  transition: background 1s ease;
+}
+
+.card-container {
+  padding: 14px 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+  padding: 16px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.card-image {
+  flex: 0 0 50%;
+  background: linear-gradient(to right, rgba(1, 125, 226, 0.575), rgba(227, 0, 248, 0.37));
+}
+
+.card-image img {
+  object-fit: cover;
+  border-radius: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+.card-content {
+  flex: 1;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Roboto';
+}
+
+.card-content h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+.card-content h4 {
+  color: rgba(44, 44, 44, 0.89);
+}
+
+.card-content p {
+  color: rgba(44, 44, 44, 0.562);
+  font-family: 'poppins';
+}
+
+.bars {
+  display: none;
+}
+
+.extra-bars {
+  display: none;
+}
+
+.bars-connected-ul {
+  display: none;
+}
+
+/*----------------------------------------About CSS----------------------------------------------------  */
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@keyframes progressBarAnimation {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+    /* Set to the desired end value */
+  }
+}
+
+.progress-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.outer-bar-1,
+.outer-bar-2,
+.outer-bar-3,
+.outer-bar-4,
+.outer-bar-5,
+.outer-bar-6 {
+  background-color: rgba(182, 180, 180, 0.561);
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.core-bar-1,
+.core-bar-2,
+.core-bar-3,
+.core-bar-4,
+.core-bar-5,
+.core-bar-6 {
+  height: 30px;
+  border-radius: 3px;
+}
+
+.core-bar-1 {
+  background-color: #a30a0a9a;
+  width: 90%;
+}
+
+.core-bar-2 {
+  background-color: #1169ac80;
+  width: 99%;
+}
+
+.core-bar-3 {
+  background-color: #a2950677;
+  width: 91%;
+}
+
+.core-bar-4 {
+  background-color: #23025f80;
+  width: 85%;
+}
+
+.core-bar-5 {
+  background-color: #ad96008e;
+  width: 79%;
+}
+
+.core-bar-6 {
+  background-color: #7a1fd681;
+  
+  width: 54%;
+}
+
+.About {
+  padding: 20px 57px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.About h1 {
+  font-size: 3rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.About h3 {
+  color: rgba(44, 44, 44, 0.767);
+  font-family: 'Roboto';
+}
+
+.About p {
+  color: rgba(44, 44, 44, 0.527);
+  font-family: 'Roboto';
+}
+
+/*----------------------------------------EDUCATION CSS----------------------------------------------------  */
+.EDUCATION {
+  background: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+  height: 197dvh;
+  text-align: center;
+  border-start-end-radius: 10px;
+  border-start-start-radius: 10px;
+  border-end-end-radius: 0px;
+  border-end-start-radius: 0px;
+  margin-top: 70px;
+}
+
+.EDUCATION h1 {
+  font-family: 'Poppins';
+  font-size: 12dvw;
+  color: white;
+}
+
+.linker-container {
+  height: 75%;
+  display: flex;
+  padding-top: 36px;
+}
+
+.linker-container .left-elem {
+  /* background: red; */
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+  /* padding-top: 100px; */
+
+}
+
+.linker-container .chain {
+  /* background: rgb(132, 0, 255); */
+  width: 10%;
+  height: 100%;
+}
+
+.linker-container .chain .linker {
+  /* background: rgb(77, 16, 134); */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linked {
+  background: rgba(255, 255, 255, 0.41);
+  backdrop-filter: blur(2px);
+  height: 98%;
+  width: 12%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.linked span {
+  background: rgba(255, 255, 255, 0.61);
+  width: 30px;
+  height: 30px;
+  border-radius: 40px;
+  box-sizing: border-box;
+
+}
+
+.point1::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: rgb(255 255 255);
+  box-shadow: 0px 0px 15px 0px black;
+  display: flex;
+  position: relative;
+  left: 9.9px;
+  top: 10px;
+  border-radius: 100px;
+}
+
+.point2::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: rgb(255 255 255);
+  box-shadow: 0px 0px 15px 0px black;
+  display: flex;
+  position: relative;
+  left: 9.9px;
+  top: 10px;
+  border-radius: 100px;
+}
+
+.point3::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: rgb(255 255 255);
+  box-shadow: 0px 0px 15px 0px black;
+  display: flex;
+  position: relative;
+  left: 9.9px;
+  top: 10px;
+  border-radius: 100px;
+}
+
+.linker-container .right-elem {
+  /* background: rgb(247, 0, 255); */
+  width: 45%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+/* matric
+--
+- */
+.matric {
+  left: -40px;
+}
+
+.INTERMEDIATE {
+  left: 40px;
+}
+
+.BSCS {
+  left: -40px;
+
+}
+
+.matric,
+.INTERMEDIATE,
+.BSCS {
+  background-color: rgba(58, 57, 57, 0.438);
+  text-align: left;
+  color: rgb(255, 255, 255);
+  width: 60%;
+  padding: 15px;
+  position: relative;
+  top: 120px;
+  border-start-end-radius: 10px;
+  border-end-start-radius: 10px;
+
+}
+
+.matric h2,
+.INTERMEDIATE h2,
+.BSCS h2 {
+  font-family: 'Roboto';
+
+}
+
+.matric p,
+.INTERMEDIATE p,
+.BSCS p {
+  color: rgba(225, 225, 225, 0.589);
+  font-family: 'Poppins';
+
+
+}
+
+.ex-1 {
+  left: -40px;
+}
+
+.ex-2 {
+  left: 40px;
+}
+
+.ex-3 {
+  left: -40px;
+
+}
+
+.ex-1,
+.ex-2,
+.ex-3 {
+  background-color: rgba(58, 57, 57, 0.438);
+  color: white;
+  text-align: left;
+  width: 60%;
+  padding: 15px;
+  position: relative;
+  top: 120px;
+  border-start-end-radius: 10px;
+  border-end-start-radius: 10px;
+
+}
+
+.ex-1 h2,
+.ex-2 h2,
+.ex-3 h2 {
+  font-family: 'Roboto';
+
+}
+
+.ex-1 p,
+.ex-2 p,
+.ex-3 p {
+  color: rgba(225, 225, 225, 0.589);
+  font-family: 'Poppins';
+
+}
+
+/* ---------------------- services ------------------------------ */
+.SERVICES {
+  /* background-color: RED; */
+  padding: 50px 57px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.SERVICES h1 {
+  font-size: 3rem;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.ai-cs {
+  /* background-color: teal; */
+  display: flex;
+  gap: 60px;
+  height: 45dvh;
+
+}
+
+.aiIntegration,
+.clientSide {
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.aiIntegration {
+  /* background-color: magenta; */
+  background: url(https://plus.unsplash.com/premium_photo-1683121716061-3faddf4dc504?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+
+}
+
+.aiIntegration::after {
+  content: "With a strong foundation in artificial intelligence (AI), I possess the knowledge and skills to seamlessly integrate AI technologies into diverse applications. Through comprehensive training and hands-on experience, I've developed proficiency in harnessing AI algorithms and frameworks. My ability to conceptualize and implement AI solutions extends across various domains, allowing me to navigate the complexities of integrating intelligent systems effectively. This expertise empowers me to contribute innovatively to projects, leveraging the transformative capabilities of AI to enhance functionality, efficiency, and overall performance in dynamic and evolving technological landscapes.";
+  font-size: .9rem;
+  backdrop-filter: blur(10px);
+  filter: difference;
+  position: absolute;
+  font-family: 'Poppins';
+  border-radius: 9px;
+  width: 43.5%;
+  height: 45%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.514);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* Initially hide the content */
+  transition: opacity 0.5s ease;
+  /* Add a smooth transition effect */
+}
+
+
+.clientSide {
+  background-color: maroon;
+  background: url(https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZnJvbnQlMjBlbmQlMjBkZXZlbG9wZXJ8ZW58MHx8MHx8fDA%3D) no-repeat center center/cover;
+}
+.clientSide::after {
+  content: "I possess comprehensive expertise in client-side development, showcasing proficiency in languages such as HTML, CSS, and JavaScript. With a keen eye for responsive design and user experience, I adeptly craft interactive and visually appealing web interfaces. My skill set extends to utilizing modern frameworks and libraries, ensuring seamless integration and optimal performance. Through a thorough understanding of front-end technologies, I bring forth innovative solutions that elevate user engagement and satisfaction. Whether it's creating dynamic web pages, implementing animations, or optimizing for various devices, I offer a holistic approach to client-side development, delivering solutions that merge functionality with aesthetics.";
+  font-size: .9rem;
+  backdrop-filter: blur(10px);
+  filter: difference;
+  position: absolute;
+  font-family: 'Poppins';
+  border-radius: 9px;
+  width: 43.5%;
+  height: 45%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.514);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* Initially hide the content */
+  transition: opacity 0.5s ease;
+  /* Add a smooth transition effect */
+}
+
+
+
+.sc-ui {
+  /* background-color: rgb(128, 0, 64); */
+  display: flex;
+  gap: 60px;
+  height: 45dvh;
+
+}
+
+.serverSide,
+.webUIUX {
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+  color: white;
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.serverSide {
+  background-color: rgb(0, 255, 149);
+  background: url(https://images.unsplash.com/photo-1605379399642-870262d3d051?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGV2ZWxvcGVyfGVufDB8fDB8fHww) no-repeat center center/cover;
+}
+.serverSide::after {
+  content: "With a profound understanding of server-side development, I bring a wealth of expertise to the table. Leveraging my comprehensive knowledge in languages like Node.js and Python, I excel in crafting robust server-side solutions that ensure seamless data processing and optimal functionality. From designing scalable APIs to implementing efficient database management, I am adept at architecting server-side systems that meet diverse business needs. My proficiency extends to troubleshooting and optimizing server performance, ensuring applications run smoothly. With a commitment to staying abreast of the latest technologies, I offer a dynamic skill set poised to elevate projects through innovative and reliable server-side development";
+  font-size: .9rem;
+  backdrop-filter: blur(10px);
+  filter: difference;
+  position: absolute;
+  font-family: 'Poppins';
+  border-radius: 9px;
+  width: 43.5%;
+  height: 45%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.514);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* Initially hide the content */
+  transition: opacity 0.5s ease;
+  /* Add a smooth transition effect */
+}
+
+.webUIUX {
+  background-color: rgb(0, 128, 17);
+  background: url(https://wallpapercave.com/dwp1x/wp9775511.png) no-repeat center center/cover;
+
+}
+.webUIUX::after {
+  content: "I possess a robust skill set in server-side web development and UI/UX design, ensuring a comprehensive approach to crafting dynamic and user-friendly online experiences. With a deep understanding of server technologies, I can seamlessly integrate functionality and responsiveness into web applications. Additionally, my proficiency in UI/UX design guarantees aesthetically pleasing interfaces that enhance user engagement and satisfaction. I am committed to delivering high-quality solutions, combining technical expertise with a keen eye for design principles. As a dedicated professional, I offer a unique blend of server-side development and UI/UX design, providing clients with streamlined and visually appealing digital platforms.";
+  font-size: .9rem;
+  backdrop-filter: blur(10px);
+  filter: difference;
+  position: absolute;
+  font-family: 'Poppins';
+  border-radius: 9px;
+  width: 43.5%;
+  height: 45%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.514);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* Initially hide the content */
+  transition: opacity 0.5s ease;
+  /* Add a smooth transition effect */
+}
+
+.databaseRouting {
+  /* background-color: mediumaquamarine; */
+  background: url(https://wallpapercave.com/dwp1x/wp2347552.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 45dvh;
+  border-radius: 9px;
+  position: relative;
+  display: flex;
+  font-family: 'Roboto';
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+
+}
+
+.databaseRouting::after {
+  content: "With a profound understanding of server-side database routing, I bring a specialized skill set to the table. Having navigated the intricacies of data management, my expertise lies in efficiently directing and optimizing the flow of information within server databases. I am adept at designing and implementing robust routing strategies, ensuring seamless interactions between server applications and databases. This proficiency enables me to offer tailored solutions that enhance data accessibility, retrieval, and storage. By harnessing this knowledge, I aim to contribute significantly to projects requiring meticulous database handling, facilitating the streamlined and secure exchange of information in the digital landscape.";
+  font-size: .9rem;
+  backdrop-filter: blur(10px);
+  filter: difference;
+  position: absolute;
+  font-family: 'Poppins';
+  border-radius: 9px;
+  width: 100%;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.514);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  /* Initially hide the content */
+  transition: opacity 0.5s ease;
+  /* Add a smooth transition effect */
+}
+
+.aiIntegration:hover::after,
+.clientSide:hover::after,
+.serverSide:hover::after,
+.webUIUX:hover::after,
+.databaseRouting:hover::after {
+  opacity: 1;
+  /* Show the content on hover */
+}
+
+/* ------------------------------------ BLOG CSS----------------------------------- */
+.BLOG{
+  background: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=1429&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+  width: 92.5%;
+  height: 150dvh;
+  text-align: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-start-start-radius: 9px;
+  border-start-end-radius: 9px;
+  
+}
+.BLOG h1{
+  font-family: 'Poppins';
+    font-size: 12dvw;
+    color: white;
+}
+.BLOG h2{
+  font-family: 'Poppins';
+    font-size: 2rem;
+    color: white;
+}
+.BLOG p{
+  font-family: 'Poppins';
+  font-size: .9rem;
+  color: whitesmoke;
+}
+.BLOG button{
+  border: 0;
+  padding: 10px 0px;
+  width: 40%;
+  border-radius: 9px;
+  border: 2px solid #ffffff;
+  background-color: rgba(235, 230, 230, 0.473);
+  color: #ffffff;
+}
+.HGPT,
+.HCHAT,
+.WAIDTTS,
+.SWEAT,
+.HAS4CODE,
+.SOON{
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 0px 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.BLOG-1-2{
+  /* background-color: green; */
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px;
+}
+.HGPT{
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 30%;
+  border-radius: 9px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-left-style:dashed;
+  /* border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white; */
+  
+}
+.HCHAT{
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 30%;
+  border-radius: 9px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-left-style:dashed;
+  /* border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white; */
+}
+.BLOG-3-4{
+  /* background-color: rgb(0, 92, 128); */
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px;
+
+}
+.WAIDTTS{
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 30%;
+  border-radius: 9px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-left-style:dashed;
+  /* border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white; */
+}
+.SWEAT{
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 30%;
+  border-radius: 9px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-left-style:dashed;
+  /* border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white; */
+}
+.BLOG-5-6{
+  /* background-color: rgb(128, 126, 0); */
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 9px;
+}
+.HAS4CODE{
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 30%;
+  border-radius: 9px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-left-style:dashed;
+  /* border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white; */
+}
+.SOON{
+  background-color: rgba(255, 255, 255, 0.322);
+  backdrop-filter: blur(2px);
+  height: 100%;
+  width: 30%;
+  border-radius: 9px;
+  border-left: 6px solid rgb(255, 255, 255);
+  border-left-style:dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white; */
+}
+
+/* ----------------------------contact css------------------ */
+.CONTACT{
+  /* background-color: RED;   */
+    padding: 50px 57px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.CONTACT h1{
+  font-size: 3rem;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+label{
+  font-size: 1.3rem;
+  font-family: 'Roboto';
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form button{
+  padding: 30px 20px;
+  width: 20%;
+  border-radius: 9px;
+  background-color: #5299bc;
+  color: white;
+  border: 0;
+}
+form button:hover,
+form button:focus{
+  background-color: #057fbd;
+}
+input{
+  padding: 20px 30px;
+  font-size: 1rem;
+  font-family: 'Poppins';
+}
+input:focus{
+  border: 1px solid #5299bc;
+  border-radius: 3px;
+  outline: 2px solid #5299bc;
+}
+textarea{
+  padding: 20px 30px;
+  font-size: 1rem;
+  resize: none;
+  font-family: 'Poppins';
+
+}
+.cpyrght{
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  font-family: 'Roboto';
+}
+
+.EDUCATION-MOBILE,
+.BLOG-mobile,
+.contact-mobile{
+  display: none;
+}
